@@ -1,0 +1,29 @@
+1. Inicio 
+2. funcion principal()
+3.   arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
+4.   arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
+5.   arreglo3(4), i[0-n] <-- {10, 18, 17, 10}
+6.   a, i[0-n] 
+7.   b, i[0-n]
+8.   c, i[0-n] 
+9.   suma1, i[0-n] <-- 0
+10.  suma2, i[0-n] <-- 0
+11.  suma3, i[0-n] <-- 0
+12.  Para(i<--0, i<4, 1) haga
+13.  	suma1 <-- suma1 + arreglo1(i)
+14.  	suma2 <-- suma2 + arreglo2(i)
+15.  	suma3 <-- suma3 + arreglo3(i)
+16.  Fin_para 
+17.  a <-- suma1 	// 14
+18.  b <-- suma2 	// 25
+19.  c <-- suma3		// 55
+20.  generarInformacion(a, b, c)
+21. Fin funcion principal 
+
+22. funcion generarInformacion (a, i; b,  i; c, i)
+23.  m, i[0-n]
+24.  m = (a**2 + b ** 2) + a*c //m<--1591
+25.  Escribir "El valor de m es " + m + " y los valores usados para la operación son: " + a + ", " + b + ", " + c
+26. 	   //"El valor de m es 1591 y los valores usados para la operación son: 14, 25, 55
+27. Fin funcion generarInformacion
+28. Fin 

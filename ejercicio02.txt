@@ -1,0 +1,50 @@
+1. Inicio 
+2. funcion principal ()
+3.   valor, i[0-n]
+4.   Escribir "Tecleé 1 para ingresar datos de autos o 2 para ingresar datos de motos"
+5.   Leer valor
+6.   cadena, x(200)[{A-Z},{a-z}, {BS}]
+7.   Si valor==1 entonces
+8.    cadena<--obtenerAuto()
+9.   De lo contrario
+10.	si valor==2 entonces
+11.	  cadena <--obtenerMoto()
+12.	Fin si 
+13.  Fin 
+14. Escribir cadena
+15. Fin funcion principal
+
+16. funcion obtenerAuto(): x
+17.   salida, x(10)[{a-z}]
+18.   marca, x(50)[{A-Z}, {a-z}, {BS}]
+19.   a_f, i[0-n]
+20.   cadena, x(200)[{A-Z}, {a-z}, {BS}] <--""
+21.   Haga_Hasta
+22.	Escribir "Ingrese la marca del auto"
+23.    	Leer marca
+24.	Escribir "Ingrese el año de fabricación"
+25.    	Leer a_f
+26.  	Escribir "Escriba si para salir del proceso"
+27.  	Leer salida
+28.   	cadena <-- cadena + "Auto marca " + marca + " con año de fabricación " + a_f +".\n"
+29.    Fin Haga_Hasta
+30.   retorna cadena
+31.  Fin funcion obtenerAuto 
+
+32. funcion obtenerMoto(): x
+33.   salida, x(10)[{a-z}]
+34.   motor, x(50)[{A-Z}, {a-z}, {BS}]
+35.   a_s, i[0-n]
+36.   cadena, x(200)[{A-Z}, {a-z}, {BS}] <--""
+37.   Haga_Hasta
+38.	Escribir "Ingrese el tipo de motor"
+39.    	Leer motor
+40.	Escribir "Ingrese el número de asientos"
+41.    	Leer a_s
+42.  	Escribir "Escriba si para salir del proceso"
+43.  	Leer salida
+44.   	cadena <-- cadena + "Moto con motor a " + moto + " y " + a_s + " asientos.\n"
+45.    Fin Haga_Hasta
+46.   retorna cadena
+47.  Fin funcion obtenerAuto 
+48. Fin 
